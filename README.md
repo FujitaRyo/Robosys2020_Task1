@@ -30,7 +30,9 @@ LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18に接�
 5. sudo insmod myled.ko
 6. sudo chmod 666 /dev/myled0
 7. echo 0 > /dev/myled0   LED全て消灯
+
    echo 1 > /dev/myled0　 LED全て点灯
+   
    echo 2 > /dev/myled0　　イルミネーション開始
 # 動画
 https://www.youtube.com/watch?v=ds-Fmy8gWzk
