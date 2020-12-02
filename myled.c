@@ -146,7 +146,8 @@ static int __init init_mod(void)
         cdev_init(&cdv, &led_fops);
         retval = cdev_add(&cdv, dev, 1);
         if(retval < 0){
-                 printk(KERN_ERR "cdev_add failed. major:%d, minor:%d",MAJOR(dev),MINOR(dev));                return retval;
+                 printk(KERN_ERR "cdev_add failed. major:%d, minor:%d",MAJOR(dev),MINOR(dev));              
+        return retval;
         }
         cls = class_create(THIS_MODULE,"myled");
                 if(IS_ERR(cls)){
