@@ -23,8 +23,8 @@
 # 回路
 LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18に接続します。
 # 実行方法
-1. git clone https://github.com/FujitaRyo/Robosys2020_Task1
-2. cd Robosys2020_Task1/myled
+$ git clone https://github.com/FujitaRyo/Robosys2020_Task1
+$ cd Robosys2020_Task1/myled
 3. make
 4. sudo rmmod myled
 5. sudo insmod myled.ko
@@ -36,3 +36,5 @@ LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18に接�
    echo 2 > /dev/myled0　　イルミネーション開始
 # 動画
 https://www.youtube.com/watch?v=ds-Fmy8gWzk
+# ライセンス
+GNU General Public License v3.0
