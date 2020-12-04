@@ -21,7 +21,7 @@
 
 ・ジャンパー線　オス-メス　×8
 # 回路
-LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18に接続します。
+LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18、他方はGNDに接続します。
 # 実行方法
 1. git clone https://github.com/FujitaRyo/Robosys2020_Task1
 2. cd Robosys2020_Task1/myled
