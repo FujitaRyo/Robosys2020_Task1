@@ -25,8 +25,8 @@ LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18、他�
 # インストール方法
 1. `git clone https://github.com/FujitaRyo/Robosys2020_Task1cd Robosys2020_Task1/myled`
 2. `make`
-3. `sudo rmmod myledsudo`
-4. `insmod myled.ko` 
+3. `sudo rmmod myled`
+4. `sudo insmod myled.ko` 
 5. `sudo chmod 666 /dev/myled0`
 # 使用方法
 `echo 0 > /dev/myled0`    LED全て消灯
