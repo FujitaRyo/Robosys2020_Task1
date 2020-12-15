@@ -8,20 +8,13 @@
 ・Raspberry Pi 4 ModelB(8G)  
 ・Ubuntu 20.04
 # 使用したもの
-・Raspberry Pi 4 ModelB(8G) ×1
-
-・ブレッドボード　×1
-
-・LED 緑　×1
-
-・LED 赤　×1
-
-・LED 青　×1
-
-・LED 黄　×1
-
-・抵抗　220Ω　×4
-
+・Raspberry Pi 4 ModelB(8G) ×1  
+・ブレッドボード　×1  
+・LED 緑　×1  
+・LED 赤　×1  
+・LED 青　×1  
+・LED 黄　×1  
+・抵抗　220Ω　×4  
 ・ジャンパー線　オス-メス　×8
 # 回路
 LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18、他方はGNDに接続します。
@@ -32,10 +25,8 @@ LED 緑をGPIO25、LED 赤をGPIO24、LED 青をGPIO23、LED 黄をGPIO18、他�
 4. `$ sudo insmod myled.ko` 
 5. `$ sudo chmod 666 /dev/myled0`
 # 使用方法
- `$ echo 0 > /dev/myled0`    LED全て消灯
-
- `$ echo 1 > /dev/myled0`    LED全て点灯
-   
+ `$ echo 0 > /dev/myled0`    LED全て消灯  
+ `$ echo 1 > /dev/myled0`    LED全て点灯   
  `$ echo 2 > /dev/myled0`    イルミネーション開始
 # デモ動画
 https://www.youtube.com/watch?v=ds-Fmy8gWzk
